@@ -10,7 +10,16 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int x = 0;
+	double sum = 0;
+
+	while (sum <= 1.7)
+	{
+		x += 1;
+		sum = sum + 1 / static_cast<double>(x);
+	}
+
+	std::cout << x << std::endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

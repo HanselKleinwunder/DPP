@@ -20,14 +20,14 @@
 
 int main()
 {
-	int year = 1823;
+	//int year = 1823;
 	//int year = 1824;
 	//int year = 1900;
-	//int year = 2000;
+	int year = 2000;
 
-	year % 4 == 0
 	//Вычислили значение 
-	//bool isLeapYear = 
+	bool isLeapYear = (year % 4 == 0) && !(year % 100 == 0) || (year % 400 == 0);
+	std::cout << isLeapYear << std::endl;
 	// проверили значение в отладчике
 }
 

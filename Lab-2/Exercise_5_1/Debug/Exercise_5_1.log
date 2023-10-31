@@ -1,0 +1,4 @@
+﻿  Exercise_5_1.cpp
+D:\Documents\IT\Git\Repositories\DPP\Lab-2\Exercise_5_1\Exercise_5_1.cpp(17,14): warning C4309: инициализация: усечение константного значения
+D:\Documents\IT\Git\Repositories\DPP\Lab-2\Exercise_5_1\Exercise_5_1.cpp(22,14): warning C4309: инициализация: усечение константного значения
+  Exercise_5_1.vcxproj -> D:\Documents\IT\Git\Repositories\DPP\Lab-2\Debug\Exercise_5_1.exe
