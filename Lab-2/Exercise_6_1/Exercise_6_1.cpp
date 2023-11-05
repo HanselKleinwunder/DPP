@@ -19,21 +19,17 @@ int main()
     std::cout << "Enter your number: ";
     std::cin >> value;
 
-	for (int i = 31; i >= 0; i--) {
+	for (int i = 31; i >= 0; i--) 
+	{
 		int x = value & mask;
 		x = x >> i;
-		if (x == 0 && !true)
-		{
-
-		}
-		else
+		if ((x == 0) || (x == 1))
 		{
 			std::cout << (x);
 		}
 
 		mask = mask >> 1;
 	}
-
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
