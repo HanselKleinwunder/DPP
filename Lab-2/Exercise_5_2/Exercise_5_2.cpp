@@ -19,7 +19,7 @@ int main()
 {
     int x = 0xA1B2C3D4;
     
-    int result = (x & 0x00FF00FF) << 8 | (x & 0xFF00FF00) >> 8;
+    int result = x << 8;
 
 
     std::cout << result << std::endl;
